@@ -119,7 +119,6 @@ resource "azurerm_lb_rule" "lb" {
   resource_group_name            = azurerm_resource_group.rg.name
   frontend_ip_configuration_name = var.lb["Frontend"].name
   backend_address_pool_ids       = [azurerm_network_interface_backend_address_pool_association.lb.backend_address_pool_id]
-
 }
 # ---------------------------------------------------------------------------------------------------------------------
 #   Network Interface
