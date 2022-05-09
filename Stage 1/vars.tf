@@ -207,11 +207,11 @@ variable "image" {
 # ---------------------------------------------------------------------------------------------------------------------
 variable "adminusername" {
   type    = string
-  default = "wpuser"
+  default = "usernamehere"
 }
 
 variable "adminpassword" {
   type    = string
-  default = "$wordpress123"
+  default = "passwordhere"
 }
 
